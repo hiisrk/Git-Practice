@@ -4,6 +4,16 @@ public class Employee {
 
 	private int id;
 
+	
+	public String geteName() {
+		return eName;
+	}
+
+	public void seteName(String eName) {
+		this.eName = eName;
+	}
+
+	private String eName;
 	public int getId() {
 		return id;
 	}
@@ -11,6 +21,8 @@ public class Employee {
 	public void setId(int id) {
 		this.id = id;
 	}
+	
+	
 
 	public Employee(int id) {
 		this.id = id;
