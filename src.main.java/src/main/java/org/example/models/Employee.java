@@ -9,11 +9,26 @@ public class Employee {
 		return eName;
 	}
 
-	public void seteName(String eName) {
+	public void setEname(String eName) {
 		this.eName = eName;
 	}
 
 	private String eName;
+
+	private Integer marks;
+
+	public void seteName(String eName) {
+		this.eName = eName;
+	}
+
+	public Integer getMarks() {
+		return marks;
+	}
+
+	public void setMarks(Integer marks) {
+		this.marks = marks;
+	}
+
 	public int getId() {
 		return id;
 	}
