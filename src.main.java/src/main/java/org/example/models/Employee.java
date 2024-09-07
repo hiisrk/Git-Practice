@@ -24,4 +24,14 @@ public class Employee {
 	
 	
 
+	public Employee(int id) {
+		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee{" +
+				"id=" + id +
+				'}';
+	}
 }
