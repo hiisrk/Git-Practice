@@ -12,4 +12,14 @@ public class Employee {
 		this.id = id;
 	}
 
+	public Employee(int id) {
+		this.id = id;
+	}
+
+	@Override
+	public String toString() {
+		return "Employee{" +
+				"id=" + id +
+				'}';
+	}
 }
